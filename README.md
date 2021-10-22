@@ -1,1 +1,1 @@
-# DesignPatternCaseStudyS3P1
+# DesignPatternSingeltonCaseStudyS3P1
