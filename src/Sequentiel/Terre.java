@@ -1,3 +1,5 @@
+package Sequentiel;
+
 import java.math.BigInteger;
 
 public class Terre {
@@ -8,12 +10,8 @@ public class Terre {
     }
     public static Terre getInstance(){
         if (Terre.instance == null) {
-            synchronized (Terre.class) {
-                if (Terre.instance == null) {
                     Terre.instance = new Terre();
                 }
-            }
-        }
         return instance;
     }
     public void afficher(){
